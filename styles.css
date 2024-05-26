@@ -3,6 +3,16 @@ body, html {
     padding: 0;
     font-family: Arial, sans-serif;
 }
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000080; /* Initial background color */
+    color: white; /* Text color for better visibility */
+    padding: 10px;
+    transition: background-color 0.3s ease; /* Smooth transition for color change */
+    z-index: 1000; /* Ensure navbar is on top */
+}
 
 nav {
     position: fixed;
@@ -10,7 +20,7 @@ nav {
     width: 100%;
     background: color #000080;
     
-    transition: background-color 0.3s;
+    transition: background-color 0.0s;
 }
 
 nav ul {
@@ -30,7 +40,7 @@ nav ul li a {
     text-decoration:double;
     padding: 15px 20px;
     display: block;
-    transition: color 0.3s, background-color 0.3s;
+    transition: color 0.0s, background-color 0.0s;
 }
 
 nav ul li a:hover {
